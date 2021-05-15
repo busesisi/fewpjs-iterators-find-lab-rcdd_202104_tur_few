@@ -13,14 +13,14 @@ const record = [
 
 function superbowlWin(record){
   let winningYear
-  let lost
+  let lostGame
 record.find( function(newArray){
   if(newArray.result === "W") {
     winningYear = newArray.year
   }
   else {
-    lost = undefined
-    return lost
+    lostGame = undefined
+    return lostGame
   }
 })
 return winningYear
