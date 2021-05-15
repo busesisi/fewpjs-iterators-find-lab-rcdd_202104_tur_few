@@ -24,7 +24,8 @@ record.find( function(newArray){
   }
 })
 return winningYear
-}
+};
+
 /*
 record.find(function(arr){
     if(arr.result === "W"){
