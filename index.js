@@ -12,7 +12,7 @@ const record = [
 ]
 
 function superbowlWin(record){
-  let winningYear 
+  let winningYear
   let lost
 record.find( function(newArray){
   if(newArray.result === "W") {
