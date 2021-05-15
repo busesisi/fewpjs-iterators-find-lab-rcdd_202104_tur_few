@@ -26,15 +26,3 @@ record.find( function(newArray){
 return winningYear
 };
 superbowlWin(record)
-/*
-record.find(function(arr){
-    if(arr.result === "W"){
-      year = arr.year
-    }
-    else{
-      undef = undefined
-      return undef
-    }
-  })
-  return year
-}
